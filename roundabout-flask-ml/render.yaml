@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: roundabout-flask-ml
-    env: python
-    buildCommand: pip install -r requirements.txt && python src/train_model.py
-    startCommand: gunicorn app:app
